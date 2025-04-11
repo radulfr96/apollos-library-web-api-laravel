@@ -1,0 +1,26 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "My First API",
+        "version": "0.1"
+    },
+    "paths": {
+        "/": {
+            "get": {
+                "operationId": "0eae46d935d04d940d504051ff2444d8",
+                "responses": {
+                    "200": {
+                        "description": "Array of genres with their names and ids"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "/api/genre": {
+                "title": "Genre"
+            }
+        }
+    }
+}
